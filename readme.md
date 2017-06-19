@@ -18,3 +18,6 @@
   - Minimize mutability
   - More readable code
   - less bugs
+
+## React Elements vs React Components
+https://tylermcginnis.com/react-elements-vs-react-components/
