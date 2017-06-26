@@ -21,6 +21,10 @@ var config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'app/index.html'
+    }),
+    new HtmlWebpackPlugin({  // Also generate a 404.html
+      filename: '404.html',
+      template: 'app/404.html'
     })
   ]
 }

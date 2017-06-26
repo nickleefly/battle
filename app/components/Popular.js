@@ -3,7 +3,7 @@ var PropTypes = require('prop-types')
 var api = require('../utils/api')
 
 function SelectLanguage (props) {
-  var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python']
+  var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python', 'Go', 'C++', 'shell', 'C', 'Vue']
   return (
     <ul className='languages'>
       {languages.map((lang) => {
