@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack",
-    "prod": "NODE_ENV='production' && webpack -p",
+    "prod": "NODE_ENV='production' && webpack --config webpack-production.config.js -p",
     "deploy": "npm run prod && gh-pages -d dist"
   },
   "keywords": [],
