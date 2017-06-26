@@ -23,3 +23,4 @@
 
 - [x] https://tylermcginnis.com/react-elements-vs-react-components/
 - [ ] https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html
+- [ ] https://github.com/rafrex/spa-github-pages
