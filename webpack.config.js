@@ -1,11 +1,13 @@
 var path = require('path')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
+var webpack = require('webpack')
 
-module.exports = {
+var config = {
   entry: './app/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index_bundle.js'
+    filename: 'index_bundle.js',
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -33,3 +35,5 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.optimize.UglifyJsPlugin()
   )
 }
+
+module.exports = config
