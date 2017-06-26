@@ -13,7 +13,7 @@ var Results = require('./Results')
 class App extends React.Component {
   render () {
     return (
-      <Router>
+      <Router basename='/react-training'>
         <div className='container'>
           <Nav />
 
