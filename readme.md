@@ -20,5 +20,6 @@
   - less bugs
 
 ## React Elements vs React Components
-[checkbox:checked] https://tylermcginnis.com/react-elements-vs-react-components/
-[checkbox:unchecked] https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html
+
+[x] https://tylermcginnis.com/react-elements-vs-react-components/
+[ ] https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html
